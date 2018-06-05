@@ -42,3 +42,6 @@ d = inverse(E, (p-1)*(q-1))
 key = RSA.construct(map(int, (N, E, d)))
 print(long_to_bytes(key.decrypt(C)))
 ```
+
+# Misc
+- 深瀬暗号ジェネレータ
